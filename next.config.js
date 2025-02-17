@@ -1,0 +1,16 @@
+/** @type {import('next').NextConfig} */
+
+module.exports = {
+  reactStrictMode: true,
+  env: {
+    NEXT_PUBLIC_APP_NAME: 'HieLife',
+    NEXT_PUBLIC_APP_URL: 'https://hielifecrm.vercel.app',
+    META_API_VERSION: 'v17.0',
+    METS_APP_ID: '291713596585282',
+    META_PHONE_NUMBER_ID: '108675182285842',
+    META_BUSINESS_ACCOUNT_ID: '114514815030032',
+    META_VERIFICATION_TOKEN: 'YouCanSetYourOwnToken',
+    META_ACCESS_TOKEN: 'EAAEJT91M9UIBAGeS1dZBT2AggvgZAcg6KovbBbAvmDnQ7zGibHhJTHfZBTYxciCoJGIT6XKZCS0i86ZBZBVpZCR6UfrZCVSEv3LCt1NjE66PNEtFCAhNMNqh6xWyV9BLsMU4Xt0IN0FmvvhtwK93ishIQQm60d21srn5glqHrJWqo92fLryOHC52UBZBPLZA6HZBNFlrdhyZBRI2SwZDZD',
+    SPREADSHEET_ID: '1Mstwf-nPTSb8tlXbue26GwnhtHDAahMWQpqdxhG41Yw'
+  }
+}
